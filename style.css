@@ -84,7 +84,7 @@
 
 
 @media screen and (max-width: 929px) {
-    .button {
+    .button__menu_type_header {
         display: none;
     }
 }
