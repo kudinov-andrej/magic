@@ -852,6 +852,12 @@
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 602px) {
+    .blog__title {
+        padding-top: 10px;
+    }
+}
+
 
 .footer {
     display: flex;
