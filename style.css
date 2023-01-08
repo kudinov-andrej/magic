@@ -81,6 +81,7 @@
     background: linear-gradient(273.31deg, #7F1CFC 0.79%, #FF1C60 98.6%);
     border-radius: 50px;
 }
+
 .header__button {
     border: none;
     width: 145px;
@@ -334,6 +335,16 @@
     align-self: center;
 }
 
+
+@media screen and (max-width: 580px) {
+    .button__text_place_important {
+        margin-bottom: 40px;
+
+
+    }
+}
+
+
 .party {
     margin: 0 auto;
     padding: 0;
@@ -454,6 +465,14 @@
     text-align: center;
     color: #C1C2C6;
 }
+
+@media screen and (max-width: 709px) {
+    .party__text {
+        margin-bottom: 40px;
+
+    }
+}
+
 
 .button__text_place_party-event {
     margin: 0;
