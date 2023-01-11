@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 602px) {
     .footer__logo {
-        margin: 0;
+        margin: 0 auto;
         margin-top: 24px;
         margin-bottom: 24px;
     }
