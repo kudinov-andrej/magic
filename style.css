@@ -12,7 +12,7 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     position: relative;
-    
+
 }
 
 
@@ -181,7 +181,7 @@
 }
 
 .importent__photo {
-   
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -247,14 +247,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
-   text-align: center;
-   align-self: center;
-    z-index: 1;
+    text-align: center;
+    align-self: center;
     font-weight: 700;
     font-size: 10ex;
     line-height: 80px;
     text-transform: uppercase;
-   
+
 }
 
 
@@ -300,7 +299,7 @@
 
 @media screen and (max-width: 929px) {
     .important__subtitle {
-       
+
         font-weight: 400;
         font-size: 80px;
         line-height: 96px;
@@ -418,7 +417,7 @@
     color: #D9D9D9;
     text-transform: uppercase;
     margin-bottom: 40px;
-    
+
 }
 
 @media screen and (max-width: 929px) {
@@ -641,21 +640,21 @@
 
 @media screen and (max-width: 602px) {
     .partners__info {
-    
+
         grid-template-columns: 1fr;
-        grid-template-rows:  repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
 }
 
 
 @media screen and (max-width: 602px) {
-    .partners__conteiner{
+    .partners__conteiner {
         margin: 0 auto;
-    max-width: 500px;
-       
+        max-width: 500px;
+
     }
 }
- 
+
 
 .conteiner_type_smal {
     max-width: 258px;
@@ -673,11 +672,11 @@
 }
 
 @media screen and (max-width: 929px) {
-    .conteiner_type_up  {
+    .conteiner_type_up {
 
-        justify-self:flex-start;
+        justify-self: flex-start;
         align-self: flex-start;
-    
+
     }
 }
 
@@ -690,7 +689,7 @@
     .conteiner_type_down {
         justify-self: start;
         align-self: flex-start;
-    
+
     }
 }
 
@@ -706,7 +705,7 @@
 
 
 .partners__picture {
-    max-width: 100%; 
+    max-width: 100%;
     min-height: 250px;
     position: relative;
     object-fit: cover;
@@ -773,7 +772,7 @@
 @media screen and (max-width: 929px) {
     .blog__articles {
         flex-direction: column;
-   
+
     }
 }
 
@@ -790,7 +789,7 @@
         display: flex;
         flex-direction: column;
 
-    
+
     }
 }
 
@@ -812,9 +811,9 @@
 
 @media screen and (max-width: 929px) {
     .blog__info {
-     align-self: center;
-     
-    
+        align-self: center;
+
+
     }
 }
 
@@ -860,11 +859,11 @@
 
 @media screen and (max-width: 929px) {
     .blog__button-read {
- justify-self: center;
- align-self: center;
- margin-bottom: 50px;
-     
-    
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 50px;
+
+
     }
 }
 
@@ -945,6 +944,7 @@
     align-self: center;
     gap: 40px;
 }
+
 @media screen and (max-width: 730px) {
     .footer__menu-list {
         gap: 15px;
@@ -979,13 +979,13 @@
 .footer__copirait {
     margin: 0 auto;
     max-width: 300px;
-   
+
 }
 
 @media screen and (max-width: 602px) {
     .footer__copirait {
         margin-top: 16px;
-       
+
     }
 }
 
@@ -1007,4 +1007,111 @@
         flex-direction: column-reverse;
         max-width: 602px;
     }
+}
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+    
+}
+
+.popup_opened {
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+.popup__conteiner {
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    background: #0E121B;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 320px;
+    min-height: 50vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.popup__header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.popap__logo {
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.popup__button-close {
+    margin: 0;
+    padding: 0;
+    background-image: url(./image/Кнопка.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    margin-top: 13px;
+    margin-right: 15px;
+    height: 28px;
+    border: none;
+}
+
+.popup__button-close:hover {
+    opacity: 0.6;
+}
+
+.popup__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.popup__menu-list {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  
+}
+
+
+.popup__menu-item {
+    margin: 0;
+    padding: 0;
+    max-width: 310px;
+    margin-bottom: 30px;
+
+}
+
+.popup__link {
+    text-decoration: dashed;
+    color: #B7C1D8;
+    max-width: 310px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.popup__link:hover {
+    opacity: 0.6;
 }
