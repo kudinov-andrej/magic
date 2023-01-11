@@ -1,0 +1,11 @@
+.conteiner_type_down {
+    justify-self: start;
+}
+
+@media screen and (max-width: 929px) {
+    .conteiner_type_down {
+        justify-self: start;
+        align-self: flex-start;
+
+    }
+}

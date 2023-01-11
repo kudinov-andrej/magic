@@ -1,3 +1,6 @@
+/*
+
+
 .body {
     margin: 0 auto;
     padding: 0;
@@ -75,6 +78,7 @@
 }
 
 
+
 .button {
     border: none;
     width: 145px;
@@ -120,7 +124,7 @@
     color: #FFFFFF;
 }
 
-.button__menu {
+.header__button-menu {
     margin: 0;
     border: none;
     background-image: url(./image/clarity_menu-line.svg);
@@ -132,10 +136,13 @@
 }
 
 @media screen and (max-width: 929px) {
-    .button__menu {
+    .header__button-menu {
         display: block;
     }
 }
+
+
+
 
 .important__play-button {
     width: 118px;
@@ -143,7 +150,7 @@
 }
 
 
-.important__blok {
+.important {
     margin: 0;
     background-image: url(./image/Group.png);
     background-repeat: no-repeat;
@@ -159,7 +166,7 @@
 }
 
 @media screen and (max-width: 929px) {
-    .important__blok {
+    .important {
         margin-top: 29px;
         background-image: none;
 
@@ -502,10 +509,15 @@
 }
 
 
+
+
+
 .button__text_place_party-event {
     margin: 0;
     margin-bottom: 45px;
 }
+
+
 
 .guest {
     margin: 0 auto;
@@ -553,6 +565,9 @@
     border-radius: 30px 30px 0px 0px;
 }
 
+
+
+
 .guest__subtitle {
     margin: 0;
     margin-top: 43px;
@@ -566,6 +581,8 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+
 
 .guest__text {
     margin: 0;
@@ -587,7 +604,6 @@
     justify-content: space-between;
 }
 
-.button_place_partners {}
 
 
 .partners__title {
@@ -647,6 +663,8 @@
 }
 
 
+
+
 @media screen and (max-width: 602px) {
     .partners__conteiner {
         margin: 0 auto;
@@ -665,6 +683,8 @@
         max-width: 350px;
     }
 }
+
+
 
 .conteiner_type_up {
     justify-self: start;
@@ -720,6 +740,8 @@
 
 }
 
+
+
 .partners__link {
     margin: 0;
     padding: 0;
@@ -750,6 +772,7 @@
     border: none;
     outline: none;
 }
+
 
 .blog {
     max-width: 100%;
@@ -935,6 +958,7 @@
     }
 }
 
+
 .footer__menu-list {
     margin: 0 auto;
     padding: 0;
@@ -975,6 +999,7 @@
 .footer__link:hover {
     opacity: 0.6;
 }
+
 
 .footer__copirait {
     margin: 0 auto;
@@ -1047,6 +1072,8 @@
     right: 0;
     top: 0;
 }
+
+
 .popup__header {
     margin: 0;
     padding: 0;
@@ -1060,6 +1087,8 @@
     margin-top: 11px;
     margin-left: 15px;
 }
+
+
 .popup__button-close {
     margin: 0;
     padding: 0;
@@ -1115,3 +1144,4 @@
 .popup__link:hover {
     opacity: 0.6;
 }
+*/

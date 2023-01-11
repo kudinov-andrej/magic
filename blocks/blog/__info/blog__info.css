@@ -1,0 +1,17 @@
+.blog__info {
+    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 929px) {
+    .blog__info {
+        align-self: center;
+
+
+    }
+}

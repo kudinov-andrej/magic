@@ -1,0 +1,40 @@
+.important__title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 0;
+    max-width: 485px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    text-align: center;
+    align-self: center;
+    font-weight: 700;
+    font-size: 10ex;
+    line-height: 80px;
+    text-transform: uppercase;
+
+}
+
+
+@media screen and (max-width: 929px) {
+    .important__title {
+        max-width: 900px;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 80px;
+        padding-top: 29px;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .important__title {
+        max-width: 360px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+
+
+    }
+}

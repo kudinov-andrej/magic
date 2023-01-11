@@ -1,0 +1,42 @@
+.important__subtitle {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 120px;
+    max-width: 557px;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 100px;
+    background: linear-gradient(45deg, #ffffff 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+@media screen and (max-width: 929px) {
+    .important__subtitle {
+
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .important__subtitle {
+        max-width: 300px;
+        margin-top: 90px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+}

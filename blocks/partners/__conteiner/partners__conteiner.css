@@ -1,0 +1,15 @@
+.partners__conteiner {
+    background: #191F2E;
+    border-radius: 50px;
+    max-width: 350px;
+    align-self: center;
+
+}
+
+@media screen and (max-width: 602px) {
+    .partners__conteiner {
+        margin: 0 auto;
+        max-width: 500px;
+
+    }
+}

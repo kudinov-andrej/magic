@@ -1,0 +1,12 @@
+.popup__link {
+    text-decoration: dashed;
+    color: #B7C1D8;
+    max-width: 310px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.popup__link:hover {
+    opacity: 0.6;
+}

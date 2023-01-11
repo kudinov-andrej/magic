@@ -1,0 +1,9 @@
+.partners__picture {
+    max-width: 100%;
+    min-height: 250px;
+    position: relative;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50px 50px 0 0;
+
+}

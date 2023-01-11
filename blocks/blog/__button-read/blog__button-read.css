@@ -1,0 +1,20 @@
+.blog__button-read {
+    border: none;
+    outline: none;
+    background-image: url(../../../image/Button-read.svg);
+    cursor: pointer;
+    width: 150px;
+    height: 56px;
+    margin-bottom: 138px;
+}
+
+
+@media screen and (max-width: 929px) {
+    .blog__button-read {
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 50px;
+
+
+    }
+}

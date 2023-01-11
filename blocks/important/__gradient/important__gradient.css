@@ -1,0 +1,13 @@
+.important__gradient {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 65px;
+    left: -56px;
+    width: 453px;
+    height: 445px;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(127, 28, 252, 0.2) 0%, rgba(89, 220, 220, 0.2) 100%);
+    filter: blur(100px);
+    border-radius: 419.5px;
+}

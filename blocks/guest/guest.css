@@ -1,0 +1,16 @@
+.guest {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-image: url(./image/Group.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 150px;
+
+}
+
+@media screen and (max-width: 929px) {
+    .guest {
+        background-image: none;
+
+
+    }
+}

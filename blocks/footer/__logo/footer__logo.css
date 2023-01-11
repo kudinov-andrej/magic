@@ -1,0 +1,13 @@
+.footer__logo {
+    margin: 0 auto;
+    background-image: url(../../../image/logo.svg);
+    width: 54px;
+    height: 70px;
+}
+
+@media screen and (max-width: 602px) {
+    .footer__logo {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+}

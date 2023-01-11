@@ -1,0 +1,9 @@
+.conteiner_type_smal {
+    max-width: 258px;
+}
+
+@media screen and (max-width: 929px) {
+    .conteiner_type_smal {
+        max-width: 350px;
+    }
+}

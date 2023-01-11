@@ -1,0 +1,16 @@
+.party__text {
+    margin: 0 36px;
+    margin-bottom: 15.87%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #C1C2C6;
+}
+
+@media screen and (max-width: 709px) {
+    .party__text {
+        margin-bottom: 40px;
+
+    }
+}

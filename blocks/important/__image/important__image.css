@@ -1,0 +1,14 @@
+.important__image {
+    margin: 0;
+    border-radius: 338.5px;
+    max-width: 40.7623%;
+    background: linear-gradient(180deg, #6223A2 0%, #A141CE 47.4%, #FF1C60 100%);
+
+
+}
+
+@media screen and (max-width: 929px) {
+    .important__image {
+        max-width: 312px;
+    }
+}

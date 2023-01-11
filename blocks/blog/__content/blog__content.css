@@ -1,0 +1,14 @@
+.blog__content {
+    max-width: 38.5%;
+}
+
+@media screen and (max-width: 929px) {
+    .blog__content {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}

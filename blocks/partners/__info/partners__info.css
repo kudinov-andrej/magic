@@ -1,0 +1,30 @@
+.partners__info {
+    margin: 0 10.41%;
+    margin-bottom: 120px;
+    max-width: 1207px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 34px;
+    grid-column-gap: 29px;
+
+}
+
+@media screen and (max-width: 929px) {
+    .partners__info {
+        max-width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 602px) {
+    .partners__info {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}

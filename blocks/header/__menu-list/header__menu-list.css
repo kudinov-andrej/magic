@@ -1,0 +1,15 @@
+.header__menu-list {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 40px;
+}
+
+@media screen and (max-width: 929px) {
+    .header__menu-list {
+        display: none;
+    }
+}

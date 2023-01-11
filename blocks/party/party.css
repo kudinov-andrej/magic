@@ -1,0 +1,9 @@
+.party {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    background-image: url(./image/Group.png);
+    background-repeat: no-repeat;
+    background-position: right top 1200px;
+
+}

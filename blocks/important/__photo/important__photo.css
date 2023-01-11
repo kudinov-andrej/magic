@@ -1,0 +1,13 @@
+.importent__photo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 929px) {
+    .importent__photo {
+        overflow-x: hidden;
+    }
+}

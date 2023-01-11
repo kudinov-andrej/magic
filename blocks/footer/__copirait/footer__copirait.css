@@ -1,0 +1,12 @@
+.footer__copirait {
+    margin: 0 auto;
+    max-width: 300px;
+
+}
+
+@media screen and (max-width: 602px) {
+    .footer__copirait {
+        margin-top: 16px;
+
+    }
+}

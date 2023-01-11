@@ -1,0 +1,22 @@
+.important {
+    margin: 0;
+    background-image: url(./image/Group.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@media screen and (max-width: 929px) {
+    .important {
+        margin-top: 29px;
+        background-image: none;
+
+    }
+}

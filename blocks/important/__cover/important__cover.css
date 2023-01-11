@@ -1,0 +1,5 @@
+.important__cover {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#0E121B -90%, rgba(30, 30, 30, 0.9) 54.92%);
+}

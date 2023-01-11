@@ -1,0 +1,14 @@
+.button__text {
+    margin: 0;
+    padding: 0;
+    text-decoration: dashed;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,18 @@
+.header__button {
+    border: none;
+    width: 145px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 45px;
+    background: linear-gradient(273.31deg, #7F1CFC 0.79%, #FF1C60 98.6%);
+    border-radius: 50px;
+
+}
+
+@media screen and (max-width: 929px) {
+    .header__button {
+
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+.party__event {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #191F2E;
+    border-radius: 50px;
+
+}

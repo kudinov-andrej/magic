@@ -1,0 +1,15 @@
+.popup__conteiner {
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    background: #0E121B;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 320px;
+    min-height: 50vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

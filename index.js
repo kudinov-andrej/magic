@@ -1,4 +1,4 @@
-const buttonOpenHederMenu = document.querySelector('.button__menu');
+const buttonOpenHederMenu = document.querySelector('.header__button-menu');
 const popupHeaderMenu = document.querySelector('.popup_type_menu');
 const buttonCloseHeaderMenu = popupHeaderMenu.querySelector('.popup__button-close');
 

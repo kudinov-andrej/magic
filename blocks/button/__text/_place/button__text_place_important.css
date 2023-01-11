@@ -1,0 +1,15 @@
+.button__text_place_important {
+    margin: 0;
+    margin-top: 31px;
+    margin-bottom: 120px;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 580px) {
+    .button__text_place_important {
+        margin-bottom: 40px;
+
+
+    }
+}

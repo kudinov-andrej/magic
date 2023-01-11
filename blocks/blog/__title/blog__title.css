@@ -1,0 +1,18 @@
+.blog__title {
+    margin: 0;
+    padding-left: 7%;
+    padding-top: 96px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #D9D9D9;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 602px) {
+    .blog__title {
+        padding-top: 10px;
+    }
+}

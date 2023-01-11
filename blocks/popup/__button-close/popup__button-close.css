@@ -1,0 +1,16 @@
+.popup__button-close {
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../image/Кнопка.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    margin-top: 35px;
+    margin-right: 15px;
+    height: 28px;
+    border: none;
+}
+
+.popup__button-close:hover {
+    opacity: 0.6;
+}

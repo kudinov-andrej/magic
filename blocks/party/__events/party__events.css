@@ -1,0 +1,24 @@
+.party__events {
+    margin: 0 10.41%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+@media screen and (max-width: 929px) {
+    .party__events {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+}
+
+
+@media screen and (max-width: 709px) {
+    .party__events {
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+}

@@ -1,0 +1,13 @@
+.important__beckgraund {
+    background-image: url(../../../image/фон1.png);
+
+}
+
+
+@media screen and (max-width: 580px) {
+    .important__beckgraund {
+        background-image: none;
+
+
+    }
+}

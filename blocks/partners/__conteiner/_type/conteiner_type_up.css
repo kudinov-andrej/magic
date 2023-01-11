@@ -1,0 +1,13 @@
+.conteiner_type_up {
+    justify-self: end;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 929px) {
+    .conteiner_type_up {
+
+        justify-self: flex-start;
+        align-self: flex-start;
+
+    }
+}
