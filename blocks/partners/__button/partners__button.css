@@ -9,6 +9,11 @@
     align-self: center;
     width: 16px;
     height: 16px;
+    cursor: pointer;
     border: none;
     outline: none;
+}
+
+.partners__button:hover {
+    opacity: 0.6;
 }

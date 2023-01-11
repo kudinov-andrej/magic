@@ -13,3 +13,7 @@
     color: #FFFFFF;
 
 }
+
+.partners__link:hover {
+    opacity: 0.6;
+}

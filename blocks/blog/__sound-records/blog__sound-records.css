@@ -1,10 +1,14 @@
 .blog__sound-records {
     border: none;
     outline: none;
+    cursor: pointer;
     width: 104px;
-    height: 26px;
+    height: 40px;
     color: white;
     background: #0E121B;
     box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
     border-radius: 36px;
+}
+.blog__sound-records:hover {
+    opacity: 0.6;
 }

@@ -8,3 +8,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.button:hover {
+    opacity: 0.6;
+}

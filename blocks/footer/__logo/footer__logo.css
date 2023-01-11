@@ -1,5 +1,7 @@
 .footer__logo {
-    margin: 0 auto;
+    margin: 0;
+    align-self: flex-start;
+    margin-right: 50px;
     background-image: url(../../../image/logo.svg);
     width: 54px;
     height: 70px;
@@ -7,6 +9,7 @@
 
 @media screen and (max-width: 602px) {
     .footer__logo {
+        margin: 0;
         margin-top: 24px;
         margin-bottom: 24px;
     }

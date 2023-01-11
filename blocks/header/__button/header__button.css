@@ -10,6 +10,10 @@
 
 }
 
+.header__button:hover {
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 929px) {
     .header__button {
 

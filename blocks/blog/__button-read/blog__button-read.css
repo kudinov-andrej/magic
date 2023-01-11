@@ -9,6 +9,10 @@
 }
 
 
+.blog__button-read:hover {
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 929px) {
     .blog__button-read {
         justify-self: center;
